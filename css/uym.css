@@ -1,3 +1,4 @@
+
 /* Sticky footer styles
 -------------------------------------------------- */
 
@@ -12,14 +13,14 @@ body {
   min-height: 100%;
   height: auto;
   /* Negative indent footer by its height */
-  margin: 0 auto -140px;
+  margin: 0 auto -120px;
   /* Pad bottom by footer height */
-  padding: 0 0 140px;
+  padding: 0 0 120px;
 }
 
 /* Set the fixed height of the footer here */
 #footer {
-  min-height: 140px;
+  min-height: 120px;
   background-color: #f5f5f5;
 }
 
@@ -27,6 +28,15 @@ body {
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
+
+* {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+	padding-top: 10%;
+	background: -moz-radial-gradient(circle, #be1e2d, #a11a27);
+}
 
 .container {
   width: auto;
@@ -44,33 +54,19 @@ body {
 	margin: auto;
 }
 
+a:link, a:hover, a:focus {
+	color: #be1e2d;
+}
+
 #footer {
-	color: white;
+	color: #be1e2d;
 	padding-top: 20px;
    -moz-box-shadow: inset 0 5px 5px rgba(0,0,0,0.4);
    -webkit-box-shadow: inset 0 5px 5px rgba(0,0,0,0.4);
    box-shadow: inset 0 5px 5px rgba(0,0,0,0.4);
-   background-color: #be1e2d;
+   background-color: #FFFFFF;
 }
 
-.btn-uym-be,
-.btn-uym-in,
-.btn-uym-fr {
-	width: 100%;
-	text-shadow: 0.1em 0.1em 0.3em rgba(0,0,0,.6);
-}
-
-.btn-uym-be:link,
-.btn-uym-in:link,
-.btn-uym-fr:link,
-.btn-uym-be:visited,
-.btn-uym-in:visited,
-.btn-uym-fr:visited {
-	color: white;
-}
-
-.btn-uym-be:hover,
-.btn-uym-in:hover,
-.btn-uym-fr:hover {
-	color: #CCCCCC;
+.contacto {
+	font-size: 18px;
 }
