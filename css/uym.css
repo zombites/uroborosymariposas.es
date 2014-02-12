@@ -1,0 +1,76 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -140px;
+  /* Pad bottom by footer height */
+  padding: 0 0 140px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  min-height: 140px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+
+/**************************************************************************/
+
+.img-responsive {
+	margin: auto;
+}
+
+#footer {
+	color: white;
+	padding-top: 20px;
+   -moz-box-shadow: inset 0 5px 5px rgba(0,0,0,0.4);
+   -webkit-box-shadow: inset 0 5px 5px rgba(0,0,0,0.4);
+   box-shadow: inset 0 5px 5px rgba(0,0,0,0.4);
+   background-color: #be1e2d;
+}
+
+.btn-uym-be,
+.btn-uym-in,
+.btn-uym-fr {
+	width: 100%;
+	text-shadow: 0.1em 0.1em 0.3em rgba(0,0,0,.6);
+}
+
+.btn-uym-be:link,
+.btn-uym-in:link,
+.btn-uym-fr:link,
+.btn-uym-be:visited,
+.btn-uym-in:visited,
+.btn-uym-fr:visited {
+	color: white;
+}
+
+.btn-uym-be:hover,
+.btn-uym-in:hover,
+.btn-uym-fr:hover {
+	color: #CCCCCC;
+}
