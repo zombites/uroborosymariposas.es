@@ -34,7 +34,6 @@ body {
 }
 
 body {
-	padding-top: 10%;
 	background: -moz-radial-gradient(circle, #be1e2d, #a11a27);
 }
 
@@ -50,23 +49,37 @@ body {
 
 /**************************************************************************/
 
+body {
+	padding-top: 5%;
+}
+
+@media (min-width: 992px) {
+	body { padding-top: 10%; }
+}
+
+@media (min-width: 1200px) {
+	body { padding-top: 15%; }
+}
+
+
 .img-responsive {
 	margin: auto;
 }
 
-a:link, a:hover, a:focus {
+a:link, a:hover, a:focus, a:visited {
 	color: #be1e2d;
 }
 
 #footer {
 	color: #be1e2d;
 	padding-top: 20px;
-   -moz-box-shadow: inset 0 5px 5px rgba(0,0,0,0.4);
-   -webkit-box-shadow: inset 0 5px 5px rgba(0,0,0,0.4);
-   box-shadow: inset 0 5px 5px rgba(0,0,0,0.4);
+   -moz-box-shadow: inset 0 3px 15px rgba(0,0,0,0.4);
+   -webkit-box-shadow: inset 0 3px 15px rgba(0,0,0,0.4);
+   box-shadow: inset 0 3px 15px rgba(0,0,0,0.4);
    background-color: #FFFFFF;
+   font-size: 12px;
 }
 
 .contacto {
-	font-size: 18px;
+	font-size: 14px;
 }
