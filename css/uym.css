@@ -34,7 +34,9 @@ body {
 }
 
 body {
+	background-color: #be1e2d;
 	background: -moz-radial-gradient(circle, #be1e2d, #a11a27);
+	background: -webkit-radial-gradient(circle, #be1e2d, #a11a27);
 }
 
 .container {
